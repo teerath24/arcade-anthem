@@ -1,11 +1,5 @@
-import ListGroup from "./components/ListGroup";
-import Button from "./Button";
-
+import { Button, ButtonGroup } from "@chakra-ui/react";
 function App() {
-  return (
-    <Button color="danger" onClick={() => console.log("clicked")}>
-      my btn
-    </Button>
-  );
+  return <Button colorScheme="blue">Button</Button>;
 }
 export default App;
